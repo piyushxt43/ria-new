@@ -1,4 +1,3 @@
-import TopNavBar from "@/components/TopNavBar";
 import MainNavigation from "@/components/MainNavigation";
 import HeroSection from "@/components/HeroSection";
 import AwardsSection from "@/components/AwardsSection";
@@ -12,7 +11,6 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <TopNavBar />
       <MainNavigation />
       <HeroSection />
       <AwardsSection />

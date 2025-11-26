@@ -7,25 +7,30 @@ import {
 
 const faqs = [
   {
-    question: "What is Fabulous?",
-    answer: "Fabulous is an award-winning self-care coaching app that harnesses the power and wisdom of behavioral science to help you develop lasting healthy habits. You'll learn how to create meaningful daily rituals and stack habits to create routines that guide you towards achieving all your goals."
+    question: "What is Ria?",
+    answer:
+      "Ria is an agentic AI companion that helps people quit harmful habits such as nicotine, alcohol, drugs, and phone addiction. It keeps watch over your mood, calendar, and sensor signals, then adapts recovery plans on your behalf.",
   },
   {
-    question: "How does Fabulous work?",
-    answer: "Fabulous was incubated in Duke University's Behavioral Economics Lab, led by Dan Ariely. Using a science-backed approach to habit-building, you'll learn how to turn small daily tasks into profound and lasting change. You'll use the same methods that elite athletes and successful entrepreneurs use to rise to the top of their game. Now it's your turn."
+    question: "How does Ria stay proactive?",
+    answer:
+      "Ria runs predictive models on activity logs, wearable data, and check-in sentiment to forecast cravings. When risk rises, it modifies tasks, nudges accountability partners, and can trigger SOS resources automatically.",
   },
   {
-    question: "How much does Fabulous cost?",
-    answer: "You can purchase a Premium plan, billed monthly or annually. No extra costs or contracts."
+    question: "Can I customize the recovery plan?",
+    answer:
+      "Yes. You can pin your non-negotiable rituals, swap habit replacements, and set escalation rules. Ria learns from every adjustment and keeps the plan aligned with your capacity.",
   },
   {
-    question: "How do I cancel?",
-    answer: "If Fabulous isn't right for you, you can cancel in a few clicks. There are no cancellation fees or contracts. Start or stop your subscription at any time."
+    question: "What platforms do you support?",
+    answer:
+      "The current demo runs on the web (React + Vite) with mobile-responsive layouts. Native wrappers are on the roadmap once the hackathon pilot concludes.",
   },
   {
-    question: "How does the trial work?",
-    answer: "Try Fabulous Premium for the duration of the trial period. If you enjoy it, do nothing, and your trial will automatically convert into the agreed-upon subscription duration.\n\nIf Premium isn't for you, make sure you cancel the trial before the end date to avoid it becoming a subscription."
-  }
+    question: "Is my data secure?",
+    answer:
+      "Event streams are encrypted at rest and in transit. We maintain audit trails, redact personal identifiers in training data, and support clinician/admin review with consent.",
+  },
 ];
 
 export default function FAQSection() {
